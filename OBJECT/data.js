@@ -9,7 +9,11 @@ let emp_details={
 
 }
 document.write(eid)
+document.write("<br>")
 document.write(ename)
+document.write("<br>")
 document.write(loc)
+document.write("<br>")
 document.write(avilability)
+document.write("<br>")
 document.write(emp_details)
