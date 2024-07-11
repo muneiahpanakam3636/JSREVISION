@@ -1004,13 +1004,13 @@ let users = [{"id":1,"Name":"Hettie","email":"hcantillon0@nba.com","gender":"Fem
     let no_of_female_users=0;
 
     for(user of users){
-        if(user.gender==='male'){
-            no_of_male_users++;
+        if(user.gender==='Male'){
+            let no_of_male_users=0;
             
         }
         else
-        if(user.gender==='female'){
-            no_of_female_users++;
+        if(user.gender==='Female'){
+            let no_of_female_users=0;
         }
     }
     
