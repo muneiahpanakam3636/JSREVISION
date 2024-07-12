@@ -1,6 +1,5 @@
 let enames= ["rahul","sonia","priyanka","rajiv"]
 
-enames.shift("modi")
+
+enames.reverse()
 console.log(enames);
-
-
