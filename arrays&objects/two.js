@@ -5,5 +5,5 @@ let users =[
 ]
 
 console.log(users[0].id);
-console.log(users[1].id);
+console.log(users[1].name);
 console.log(users[2].id);

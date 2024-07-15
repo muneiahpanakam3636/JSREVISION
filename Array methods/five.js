@@ -1,6 +1,6 @@
 let enames= ["rahul","sonia","priyanka","rajiv"]
 
-enames.shift("modi")
+enames.shift()
 console.log(enames);
 
 
