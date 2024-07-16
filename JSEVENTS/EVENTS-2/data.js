@@ -11,8 +11,16 @@ function Change_colour3(){
 function Change_colour4(){
     document.getElementById('abc1').style.backgroundColor="green"
 }
-function Change_colour5(){
-    let name =document.getElementById('abc2').value;
-    // alert(name.toUppercase())
-    document.getElementById('abc2').value = name.toUppercase();
-}
+// function Change_textcase(){
+//     let name =document.getElementById('xyz1').value;
+//     alert(name.toUppercase())
+//     document.getElementById('xyz1').value = name.toUppercase();
+// }
+
+function change_textCase(){
+    let name=document.getElementById('xyz4').value;
+    alert(name.toUpperCase())
+    document.getElementById('xyz4').value=name.toUpperCase()
+ }
+ 
+ 

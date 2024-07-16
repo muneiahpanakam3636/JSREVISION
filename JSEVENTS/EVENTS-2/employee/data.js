@@ -19,5 +19,6 @@ function  display_empdata(){
    }
 
 
-    document.getElementById('table_data').innerHTML=rows
+    // document.getElementById('table_data').innerHTML=rows
+    document.getElementsByTagName('tbody')[0].innerHTML=rows
 }

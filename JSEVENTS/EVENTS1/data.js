@@ -1,6 +1,6 @@
 function Display(){
     // alert("good morning")
-    console.log('GE');
+    console.log(GE)
 }
 
-// Display()
+Display()
