@@ -1003,7 +1003,7 @@ let users = [{"id":1,"Name":"Cassi","gender":"Female"},
         
         let rows =" "
         for( user of users){
-            if(user.gender==="Male"){
+            if(user.gender==="Female"){
             rows =rows + `<tr>
             <td>${user.id}</td>
             <td>${user.Name}</td>
@@ -1011,5 +1011,5 @@ let users = [{"id":1,"Name":"Cassi","gender":"Female"},
             </tr>`
             }
         }
-          document.getElementsByName("tbody")[0].innerHTML =rows
+          document.getElementsByTagName("tbody")[0].innerHTML =rows
     }
